@@ -8,6 +8,7 @@
 
 ### В корне проекта нужно создать файл .env со следующими переменными:
 BOT_TOKEN=your_bot_token (из @BotFather)
+
 WEATHER_API_KEY=your_api_token (из профиля на https://home.openweathermap.org/api_keys)
 
 ### Запуск с помощью docker:
