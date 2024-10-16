@@ -20,4 +20,6 @@ WEATHER_API_KEY=your_api_token (из профиля на https://home.openweathe
 ### Запуск без docker:
 1. Клонировать репозиторий в папку: git clone https://github.com/janetuyy/WeatherBot.git
 2. Перейти к папке проекта: cd WeatherBot
-3. Запустить проект: python3 weather_bot.py
+3. Создать и активировать виртуальное окружение: python -m venv venv venv/Scripts/activate
+4. Установить зависимости: pip install -r requirements.txt
+5. Запустить проект: python3 weather_bot.py
